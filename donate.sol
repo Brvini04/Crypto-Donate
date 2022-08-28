@@ -11,6 +11,6 @@ contract Donate{
     
 
         function donate() public payable{
-            payable(carteira).transfer(msg.value / 2);
+            payable(carteira).transfer(msg.value);
         }
 }
